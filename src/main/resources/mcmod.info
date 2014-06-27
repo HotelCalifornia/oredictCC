@@ -3,7 +3,7 @@
   "modid": "oredictcc",
   "name": "Oredict Peripheral for Computercraft",
   "description": "Adds item comparisons through the ore dictionary to Computercraft turtles",
-  "version": "${env.build_number}",
+  "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
