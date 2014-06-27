@@ -13,13 +13,15 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.0"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+version = "0.0.0"
+group= "tk.hotelcalifornia.oredictcc" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "oredictcc"
 
 minecraft {
 	version = "1.6.4-9.11.1.964"
 }
+
+buildversion = "${minecraft.version}-$version.${System.getenv().BUILD_NUMBER}"
 
 processResources
 {
