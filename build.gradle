@@ -23,14 +23,14 @@ minecraft {
 
 processResources
 {
-    inputs.property "version", system.getenv("BUILD_NUMBER")
+    inputs.property "version", System.getenv("BUILD_NUMBER")
     inputs.property "mcversion", project.minecraft.version
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
                 
         // replace version and mcversion
-        expand 'version':system.getenv("BUILD_NUMBER"), 'mcversion':project.minecraft.version
+        expand 'version':System.getenv("BUILD_NUMBER"), 'mcversion':project.minecraft.version
     }
         
     // copy everything else, thats not the mcmod.info
