@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ComputerCraft1.63">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/api/java/ComputerCraft1.63.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/src/api/java/ComputerCraft1.63.jar!/api/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/api/java/ComputerCraft1.63.jar!/api/src" />
+    </SOURCES>
+  </library>
+</component>

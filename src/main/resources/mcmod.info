@@ -1,0 +1,16 @@
+[
+{
+  "modid": "oredictcc",
+  "name": "Oredict Peripheral for Computercraft",
+  "description": "Adds item comparisons through the ore dictionary to Computercraft turtles",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Hotel_California"]
+  "credits": "#minecraftforge, #computercraft",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["computercraft"]
+}
+]
