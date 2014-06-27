@@ -25,7 +25,7 @@ buildversion = "${minecraft.version}-$version.${System.getenv().BUILD_NUMBER}"
 
 processResources
 {
-    inputs.property "version", System.getenv("BUILD_NUMBER")
+    inputs.property "version", project.buildversion
     inputs.property "mcversion", project.minecraft.version
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
