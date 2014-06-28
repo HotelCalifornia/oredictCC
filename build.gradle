@@ -23,7 +23,7 @@ minecraft {
 
 //test = "${System.getenv().test}"
 
-buildversion = "${minecraft.version}-${version}.${System.getenv().build_number}"
+buildversion = "${minecraft.version}-${version}.${System.build_number}"
 
 processResources
 {
