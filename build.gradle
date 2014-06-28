@@ -21,7 +21,7 @@ minecraft {
 	version = "1.6.4-9.11.1.964"
 }
 
-buildversion = "${minecraft.version}-$version.${System.getenv().BUILD_NUMBER}"
+buildversion = "${minecraft.version}-${version}.${System.getenv().BUILD_NUMBER}"
 
 processResources
 {
