@@ -21,13 +21,13 @@ minecraft {
 	version = "1.6.4-9.11.1.964"
 }
 
-test = "${System.getenv().test}"
+//test = "${System.getenv().test}"
 
 buildversion = "${minecraft.version}-${version}.${System.getenv().build_number}"
 
 processResources
 {
-    println project.test
+    //println project.test
     inputs.property "version", project.buildversion
     inputs.property "mcversion", project.minecraft.version
     // replace stuff in mcmod.info, nothing else
