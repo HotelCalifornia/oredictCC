@@ -1,3 +1,6 @@
+# DED REPO
+maybe I'll pick it up again this summer, but then again, probably not
+
 Overview
 =========
 This is an addon to the Computercraft Mod for Minecraft (v1.6.4) that adds Ore Dictionary item comparisons (in the form of a peripheral) to the Computercraft turtles.
